@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <style>
+    .hero {
+      background: url('./images/cosmos-canada-tours-main.jpg') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="#">J&J CANADA IMMIGRATION CONSULTANTS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse bg-primary" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#top destinations">Top Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#packages">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div>
+      <h1>Visit Your Canada Dreamland</h1>
+      <p>Your satisfaction is our happiness</p>
+      <a href="#" class="btn btn-success btn-lg">Get Started</a>
+    </div>
+  </div>
+
+  <!-- Destinations Section -->
+  <div class="container mt-5">
+    <h2 class="text-center">Top Destinations</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="./images/toronto.jpeg" class="card-img-top" alt="Destination 1">
+          <div class="card-body">
+            <h5 class="card-title">TORONTO</h5>
+            <p class="card-text">Toronto, the capital of the province of Ontario</p>
+            <a href="#" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="./images/canada alberta.jpeg" class="card-img-top" alt="Destination 2">
+          <div class="card-body">
+            <h5 class="card-title">ALBERTA</h5>
+            <p class="card-text">Alberta is a province in Western Canada</p>
+            <a href="#" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="./images/CANADA BC.jpeg" class="card-img-top" alt="Destination 3">
+          <div class="card-body">
+            <h5 class="card-title">British Columbia</h5>
+            <p class="card-text">British Columbia, Canada's westernmost province</p>
+            <a href="#" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tours Section -->
+  <div class="container mt-5">
+    <h2 class="text-center">Tours</h2>
+    <div class="accordion" id="toursAccordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Visitor / Business Visa
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#toursAccordion">
+          <div class="card-body">
+            We assist companies and private individuals in obtaining Canadian visas and travel documents
+            <a href="#" class="btn btn-success">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              Study Permits
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#toursAccordion">
+          <div class="card-body">
+            <p>Do you know that as a Canadian student on valid study permit, you can study & work part-time?</p>
+            <a href="#" class="btn btn-success">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              Work Permit
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#toursAccordion">
+          <div class="card-body">
+            We can help you with the following applications: Business Visitor Visas; Work Permits, LMO exempt etc.
+            <a href="#" class="btn btn-success">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<forms></forms>
+  <div class="container mt-5">
+    <h2 class="text-center">reach out to us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your Full name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="destination">Destination of Interest</label>
+        <input type="text" class="form-control" id="destination" placeholder="Enter destination of interest">
+      </div>
+      <div class="form-group">
+        <label for="message">comments</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your comments"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+
+  <footer class="bg-light text-center text-lg-start mt-5">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4
+          
